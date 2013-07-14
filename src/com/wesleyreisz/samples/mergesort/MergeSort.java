@@ -9,9 +9,10 @@ public class MergeSort {
 	 */
 	
 	public static int[] sort(int[] values) {
+		if(values.length<=1){return values;}
+		
 		int[] result = new int[values.length];
 		
-		// TODO implement merge sort
 		// step 1: divide list in half
 		int halfway = result.length/2;
 		int[] left = new int[halfway];
@@ -23,9 +24,19 @@ public class MergeSort {
 				right[i-halfway]=values[i];
 			}
 		}
-		// step 2: evaluate the each half of the list putting the list in order
+		
+		left = sort(left);
+		right = sort(right);
+		
+		return merge(left,right);
+	}
+
+	private static int[] merge(int[] left, int[] right) {
+		int[] result = new int[left.length + right.length];
+		
 		int i = 0;
 		int j = 0;
+		
 		for(int k = 0; k<result.length; k++){
 			if(i<left.length && j<right.length){
 				//core data check
