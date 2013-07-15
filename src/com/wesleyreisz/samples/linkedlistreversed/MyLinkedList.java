@@ -1,4 +1,6 @@
 package com.wesleyreisz.samples.linkedlistreversed;
+//http://codereview.stackexchange.com/questions/7107/singly-linked-list-java-implementation
+//look at this implementation (comments)
 
 public class MyLinkedList {
 	private Node pointer = null;
