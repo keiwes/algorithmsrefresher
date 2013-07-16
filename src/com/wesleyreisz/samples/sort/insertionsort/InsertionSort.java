@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.insertionsort;
+package com.wesleyreisz.samples.sort.insertionsort;
 
 import java.util.*;
 

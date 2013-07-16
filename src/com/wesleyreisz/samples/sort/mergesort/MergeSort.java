@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.mergesort;
+package com.wesleyreisz.samples.sort.mergesort;
 
 public class MergeSort {
 	/*

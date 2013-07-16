@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.circularlylinkedlist.solution;
+package com.wesleyreisz.samples.linkedlist.circularly;
 
 import java.util.LinkedList;
 import java.util.List;

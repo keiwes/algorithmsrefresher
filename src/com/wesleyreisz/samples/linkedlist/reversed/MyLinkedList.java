@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.linkedlistreversed;
+package com.wesleyreisz.samples.linkedlist.reversed;
 //http://codereview.stackexchange.com/questions/7107/singly-linked-list-java-implementation
 //look at this implementation (comments)
 

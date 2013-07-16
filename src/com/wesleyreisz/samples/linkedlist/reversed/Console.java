@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.linkedlistreversed;
+package com.wesleyreisz.samples.linkedlist.reversed;
 
 public class Console {
 

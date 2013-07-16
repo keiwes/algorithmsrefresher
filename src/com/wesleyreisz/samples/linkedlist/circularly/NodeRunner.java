@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.circularlylinkedlist.solution;
+package com.wesleyreisz.samples.linkedlist.circularly;
 
 public class NodeRunner {
 	/* Explanation: This is an example of a doubly linked list. I wrote this as
