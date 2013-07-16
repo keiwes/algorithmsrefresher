@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.linkedlist.forward.v1;
+package com.wesleyreisz.samples.linkedlist.forwardv1;
 
 import junit.framework.Assert;
 

@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.linkedlist.forward.v1;
+package com.wesleyreisz.samples.linkedlist.forwardv1;
 
 public class MyLinkList {
 	Node pointer = null;

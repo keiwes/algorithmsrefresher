@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.linkedlist.forward.v1;
+package com.wesleyreisz.samples.linkedlist.forwardv1;
 //make this print forward, not backward
 //make this a doubly linked list
 //make this a circularly linked list
