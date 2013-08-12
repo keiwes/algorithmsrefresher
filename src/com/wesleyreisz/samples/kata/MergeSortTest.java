@@ -1,4 +1,4 @@
-package com.wesleyreisz.sample.kata;
+package com.wesleyreisz.samples.kata;
 
 import org.junit.Test;
 

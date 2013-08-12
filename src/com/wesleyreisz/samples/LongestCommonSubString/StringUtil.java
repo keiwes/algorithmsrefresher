@@ -1,4 +1,4 @@
-package com.wesleyreisz.sample.LongestCommonSubString;
+package com.wesleyreisz.samples.LongestCommonSubString;
 
 public class StringUtil {
 	//task: implement a utility to find the longest common substring

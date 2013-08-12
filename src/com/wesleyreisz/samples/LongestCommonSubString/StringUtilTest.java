@@ -1,4 +1,4 @@
-package com.wesleyreisz.sample.LongestCommonSubString;
+package com.wesleyreisz.samples.LongestCommonSubString;
 
 import junit.framework.Assert;
 
