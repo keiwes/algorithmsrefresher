@@ -8,16 +8,15 @@ import org.junit.Test;
 
 public class StringUtilTest {
 
-	@Test
 	public void test() {
-		String s = "CODE";
+		String s = "ABC";
 		ArrayList<String> value = StringUtil.permutationFinder(s);
 		System.out.println("\nThe Permutations are : \n" + value);
 	}
 	
 	@Test
 	public void testSecond(){
-		String s = "CODE";
+		String s = "ABCDE";
 		/*Assert.assertEquals(
 			StringUtil.permutationFinder(s),
 			StringUtil2.perm1(s)
