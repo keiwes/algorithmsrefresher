@@ -51,4 +51,55 @@ public class StringUtils {
 		}
 		return result;
 	}
+
+	public static boolean isAnAnagram(String word1, String word2) {
+		if(word1.length()!=word2.length()){
+			return false;
+		}
+		String newWord = word2;
+		for(int i=0;i<word1.length();i++){
+			String target = String.valueOf(word1.charAt(i));
+			if (!newWord.contains(target)){
+				return false;
+			}else{
+				newWord = newWord.replaceFirst(target, "");
+			}
+		}
+		return true;
+	}
+
+	public static String replaceSpaces(String input) {
+		return input.replace(" ", "%20");
+	}
+	
+	public static String replaceSpaces1(String input) {
+		String charToReplace = " ";
+		String charToReplaceWith = "%20";
+		StringBuilder sb = new StringBuilder();
+		
+		for(int i = 0; i<input.length();i++){
+			String target = String.valueOf(input.charAt(i));
+			if(target.equals(charToReplace)){
+				sb.append(charToReplaceWith);
+			}else{
+				sb.append(target);
+				
+			}
+		}
+		return sb.toString();
+	}
+
+	public static Object isAnAnagram1(String string, String word2) {
+		return null;
+	}
+
+	public static boolean isRotation(String first, String second) {
+		if(first.length()!=second.length()){
+			return false;
+		}
+		return isSubString(first+first, second);
+	}
+	private static boolean isSubString(String String2Check, String substring){
+		return String2Check.contains(substring);
+	}
 }
