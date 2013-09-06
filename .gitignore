@@ -1,3 +1,5 @@
+.metadata/
+.settings/org.eclipse.core.resources.prefs
 bin/*
 *.class
 
