@@ -1,4 +1,4 @@
-package com.wesleyreisz.samples.exercises;
+package com.wesleyreisz.samples.exercises.chapt1;
 
 import java.util.HashSet;
 import java.util.Set;
